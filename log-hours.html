@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log Hours</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <div class="container">
+        <a class="navbar-brand" href="../Home.html">
+        <img src="../Img/Volunteer.png" alt="" width="270px" height="65px" class="d-inline-block align-text-top"></a>
+    </div>
+  </nav> 
+
+   <!--Hour Logging Form -->
+  <section class="container my-5">
+
+    <h2 class="text-center">Log Volunteer Hours</h2>
+    <form>
+      <div class="mb-3">
+        <label for="event" class="form-label">Event</label>
+        <select id="event" class="form-select">
+          <option selected>Select Event</option>
+          <option>Food Drive Assistance</option>
+          <option>Website Updation Volunteer</option>
+          <option>Teaching Support for Primary</option>
+          <option>Volunteer Teacher Required</option>
+          <option>Volunteerng for Social Media Analyst</option>
+          <option>Help NGO in Fundraising and Sponsorship</option>
+
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="hours" class="form-label">Hours Worked</label>
+        <input type="number" class="form-control" id="hours" required>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit Hours</button>
+    </form>
+  </section>
+
+</body>
+</html>  

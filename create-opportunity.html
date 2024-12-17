@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Opportunity</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <div class="container">
+            <a class="navbar-brand" href="../Home.html">
+            <img src="../Img/Volunteer.png" alt="" width="270px" height="65px" class="d-inline-block align-text-top"></a>
+        </div>
+    </nav> 
+    
+    <div class="container my-5">
+        <h2 class="text-center">Post a New Volunteering Opportunity</h2>
+        <form id="opportunityForm" >
+            <div class="mb-3 mt-4">
+                <label for="title" class="form-label">Opportunity Title</label>
+                <input type="text" class="form-control" id="title" required>
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" id="description" rows="3" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="category" class="form-label">Category</label>
+                <input type="text" class="form-control" id="category" required>
+            </div>
+            <div class="mb-3">
+                <label for="location" class="form-label">Location</label>
+                <input type="text" class="form-control" id="location" required>
+            </div>
+            <div class="mb-4">
+                <label for="date" class="form-label">Date</label>
+                <input type="date" class="form-control" id="date" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Post Opportunity</button>
+        </form>
+        
+        ///////
+        <form id="opportunityForm" onsubmit="return validateForm()">
+            <input type="hidden" id="isUpdate" value="false"> <!-- Set to 'true' for update -->
+            <!-- Existing form fields here -->
+        </form>
+        
+    </div>
+
+    <script src="create-opportunity.js"></script>
+</body>
+</html>

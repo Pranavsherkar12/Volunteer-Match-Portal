@@ -1,0 +1,49 @@
+.navbar{
+    width: 100%;
+    /* margin-top: 0; */
+   
+}
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100vh;
+background-color: #f8f9fa;
+margin: 0;
+}
+
+.login-container {
+max-width: 500px;
+padding: 2rem;
+border-radius: 8px;
+background-color: white;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Space around buttons */
+.social-buttons .btn {
+width: 100%;
+margin-top: 10px;
+}
+
+.social-buttons i{
+  color: rgb(0, 0, 0);
+  margin-right: 15px;
+}
+
+.social-buttons button{
+color: #ffffff;
+}
+
+.social-buttons #google{
+background-color: #D34836;
+}
+
+.social-buttons #fb{
+background-color: #3B5998;
+}
+
+.social-buttons #lnkin{
+background-color: #0077B5;
+}

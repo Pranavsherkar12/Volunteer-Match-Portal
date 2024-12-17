@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&family=Montserrat:wght@500&display=swap');
+
+#navbarNav ul .nav-link{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#navbarNav ul li{
+    margin-left: 8px;
+}
+
+#signinNav{
+
+    background-color: rgb(129, 123, 216);
+    border-radius: 10%; 
+   
+}
+
+#signupNav{
+    background-color: rgb(129, 123, 216);
+    /* background-color: rgb(150, 144, 236); */
+    border-radius: 10%;
+}
+
+#signinNav a:hover{
+  background-color: #adb5bd;
+}
+
+#signupNav a:hover{
+    background-color: #adb5bd;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #bcbcbc !important;
+  }
+
+
+.hero-section a:hover{
+    background-color: #adb5bd;
+}
+
+.hero-section{
+    background-image: url('Img/heros_section_bg.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; 
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section h1{
+    font-family: 'Montserrat';
+    font-size: -webkit-xxx-large;
+    color: rgb(36, 32, 32);
+}
+
+.hero-section p{
+    color: rgb(2, 1, 1);
+}
+
+.hero-section a{
+    size: 15px;
+}
+
+#feature-section h2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal
+}
+
+.card {
+    height: 100%; 
+}
+.card-body {
+    padding: 24px;
+}
+
+.card-body a:hover{
+    background-color: #adb5bd;
+}
+
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  .footer .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .footer .footer-links a:hover {
+    color: #adb5bd;
+  }
+
+
+
+.footer .container .row{
+    margin-left: 10%;
+}

@@ -1,0 +1,89 @@
+    /* General Styling */
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+      }
+  
+      /* Navbar Styling */
+      .navbar {
+        background-color: #e3f2fd;
+        padding: 1rem 2rem;
+      }
+  
+      /* .navbar-brand img {
+        width: 180px;
+      } */
+  
+      .navbar-nav .nav-link {
+        color: rgb(0, 0, 0) !important;
+        font-weight: bold;
+        margin: 0 10px;
+      }
+  
+      .navbar-nav .nav-link:hover {
+        color: #bcbcbc !important;
+      }
+  
+      .navbar .btn-primary {
+        background-color: #ffdd57;
+        border: none;
+        color: #007bff;
+        font-weight: bold;
+      }
+  
+      /* Dropdown for Account Section */
+      .dropdown-menu {
+        background-color: #007bff;
+        border: none;
+      }
+  
+      .dropdown-item {
+        color: white !important;
+      }
+  
+      .dropdown-item:hover {
+        background-color: #ffdd57;
+        color: #007bff !important;
+      }
+  
+      /* Category Filter Styling */
+      .category-filter {
+        margin-top: 20px;
+        text-align: center;
+      }
+  
+      .category-filter label {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-right: 10px;
+      }
+  
+      /* Opportunities Section */
+      .opportunities-section {
+        margin-top: 20px;
+      }
+  
+      .opportunity-card {
+        transition: transform 0.3s ease;
+        cursor: pointer;
+      }
+  
+      .opportunity-card:hover {
+        transform: scale(1.05);
+      }
+  
+      .card-title {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+  
+      .btn-danger {
+        margin-top: 10px;
+      }
+  
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .opportunity-card {
+          margin-bottom: 20px;
+        }
+      }
